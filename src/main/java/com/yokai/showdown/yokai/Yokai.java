@@ -49,7 +49,7 @@ public class Yokai {
 
             this.ivStrength = ivStrengthYokai;
             this.ivSpirit = ivSpiritYokai;
-            
+
             this.ivDefense = ivDefense;
             this.ivSpeed = ivSpeed;
             }
@@ -98,7 +98,6 @@ public class Yokai {
     public int getTechniqueMasteryLevel() {
         return this.techniqueMasteryLevel;
     }
-
     public void setTechniqueMasteryLevel(int techniqueMasteryLevel) {
         this.techniqueMasteryLevel = techniqueMasteryLevel;
     }
