@@ -5,6 +5,38 @@ public class YokaiSpecies {
     private String tribe;
     private char rank;
 
+    public YokaiSpecies(
+        String name,
+        String tribe,
+        char rank,
+        int baseHP,
+        int baseStrength,
+        int baseSpirit,
+        int baseDefense,
+        int baseSpeed,
+        int maxLevelHP,
+        int maxLevelStrength,
+        int maxLevelSpirit,
+        int maxLevelDefense,
+        int maxLevelSpeed) {
+
+    this.name = name;
+    this.tribe = tribe;
+    this.rank = rank;
+
+    this.baseHP = baseHP;
+    this.baseStrength = baseStrength;
+    this.baseSpirit = baseSpirit;
+    this.baseDefense = baseDefense;
+    this.baseSpeed = baseSpeed;
+
+    this.maxLevelHP = maxLevelHP;
+    this.maxLevelStrength = maxLevelStrength;
+    this.maxLevelSpirit = maxLevelSpirit;
+    this.maxLevelDefense = maxLevelDefense;
+    this.maxLevelSpeed = maxLevelSpeed;
+}
+
     public String getName() {
         return this.name;
     }
