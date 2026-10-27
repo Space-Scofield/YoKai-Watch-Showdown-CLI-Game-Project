@@ -25,10 +25,24 @@ public class Yokai {
     private int ivDefense;
     private int ivSpeed;
 
-    public Yokai(int IdYokai, YokaiSpecies speciesYokai, Ability physicalAttackYokai, int physicalAttackMasteryLevelYokai,
-        Ability techniqueYokai, int techniqueMasteryLevelYokai, Ability animaximunYokai, int animaximunMasteryLevelYokai,
-        Ability spiritationYokai, Ability passiveAbilityYokai, int levelYokai, int ivHPYokai, int ivStrengthYokai, 
-        int ivSpiritYokai, int ivDefense, int ivSpeed){
+    public Yokai(
+        int IdYokai,
+        YokaiSpecies speciesYokai,
+        Ability physicalAttackYokai,
+        int physicalAttackMasteryLevelYokai,
+        Ability techniqueYokai,
+        int techniqueMasteryLevelYokai,
+        Ability animaximunYokai,
+        int animaximunMasteryLevelYokai,
+        Ability spiritationYokai,
+        Ability passiveAbilityYokai,
+        int levelYokai,
+        int ivHPYokai,
+        int ivStrengthYokai, 
+        int ivSpiritYokai,
+        int ivDefense,
+        int ivSpeed){
+            
             this.id = IdYokai;
             this.species = speciesYokai;
             

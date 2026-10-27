@@ -1,0 +1,9 @@
+{
+        "001": {
+                "name": "Alcaldero",
+                "tribe": "brave",
+                "rank": "E",
+                "attribute": "FIRE",
+                "abilitiesArr": ["H0001", "H0002", "H0003", "H0004"]
+        }
+}

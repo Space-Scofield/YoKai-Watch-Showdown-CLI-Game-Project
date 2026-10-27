@@ -1,8 +1,7 @@
 package com.yokai.showdown.yokai;
 
-public enum TargetType {
-        ALLIE,
-        ENEMIE,
+public enum TargetCount {
         UNIQUE,
-        ALL
+        ALL,
+        
 }

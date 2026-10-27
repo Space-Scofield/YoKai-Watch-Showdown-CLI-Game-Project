@@ -1,0 +1,43 @@
+{
+        "Pelmapunzadas": {
+                "name": "Pelmapunzadas",
+                "id": "H0001",
+                "power": 15,
+                "description": "",
+                "element": "NONE",
+                "validTargetCount": ["UNIQUE"],
+                "validTargetSide": ["ALLY"],
+                "type": "ATTACK"
+        },
+        "Ascuas": {
+                "name": "Ascuas",
+                "id": "H0002",
+                "power": 20,
+                "description": "",
+                "element": "FIRE",
+                "validTargetCount": ["UNIQUE"],
+                "validTargetSide": ["ENEMY"],
+                "type": "TECHNIQUE"
+        },
+        "Palillo Puntiagudo": {
+                "name": "Palillo Puntiagudo",
+                "id": "H0003",
+                "power": 18,
+                "hitCount": 5,
+                "description": "Pincha a sus enemigos con su querido palillo.",
+                "element": "NONE",
+                "validTargetCount": ["UNIQUE"],
+                "validTargetSide": ["ENEMY"],
+                "type": "ANIMAXIMUN"
+        },
+        "A la ligera": {
+                "name": "A la ligera",
+                "id": "H0004",
+                "power": 0,
+                "description": "Hace que el Yo-kai se tome todo a la ligera y disminuye su DEF.",
+                "element": "NONE",
+                "validTargetCount": ["UNIQUE"],
+                "validTargetSide": ["SELF"],
+                "type": "SPIRITATION"
+        }
+}

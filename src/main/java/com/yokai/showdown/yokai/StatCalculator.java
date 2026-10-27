@@ -1,11 +1,13 @@
 package com.yokai.showdown.yokai;        
             
-            public YokaiStats calculateStats(Yokai yokai){
-                YokaiSpecies species = yokai.getSpecies();
+   public class StatCalculator{
+    /**  
+        public YokaiStats calculateStats(Yokai yokai){
+            YokaiSpecies species = yokai.getSpecies();
 
-                int level = yokai.getLevel();
+            int level = yokai.getLevel();
 
 
-            }
-
-        }      
+        }
+ */
+}

@@ -20,6 +20,8 @@ public class YokaiSpecies {
         int maxLevelDefense,
         int maxLevelSpeed) {
 
+
+            
     this.name = name;
     this.tribe = tribe;
     this.rank = rank;
