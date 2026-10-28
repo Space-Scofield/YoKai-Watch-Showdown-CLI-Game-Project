@@ -20,6 +20,7 @@ public class Yokai {
 
     // Individual values
     private int ivHP;
+    private int ivMaxHP;
     private int ivStrength;
     private int ivSpirit;
     private int ivDefense;
@@ -37,6 +38,7 @@ public class Yokai {
         Ability spiritationYokai,
         Ability passiveAbilityYokai,
         int levelYokai,
+        int ivMaxHPYokai,
         int ivHPYokai,
         int ivStrengthYokai, 
         int ivSpiritYokai,
@@ -60,6 +62,7 @@ public class Yokai {
 
             this.level = levelYokai;
             this.ivHP = ivHPYokai;
+            this.ivMaxHP = ivMaxHPYokai;
 
             this.ivStrength = ivStrengthYokai;
             this.ivSpirit = ivSpiritYokai;
@@ -162,6 +165,14 @@ public class Yokai {
 
     public void setIvHP(int ivHP) {
         this.ivHP = ivHP;
+    }
+
+    public int getIvMaxHP() {
+        return this.ivMaxHP;
+    }
+
+    public void setIvMaxHP(int ivMaxHP) {
+        this.ivMaxHP = ivMaxHP;
     }
 
     public int getIvStrength() {
