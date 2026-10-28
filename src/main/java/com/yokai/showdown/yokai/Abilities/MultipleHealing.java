@@ -1,7 +1,5 @@
 package com.yokai.showdown.yokai.Abilities;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Arrays;
 import com.yokai.showdown.yokai.Effect;
 import com.yokai.showdown.yokai.Yokai;
 
